@@ -23,7 +23,7 @@ function sendEmail() {
   Email.send({
     SecureToken: "Your_TOKEN",
     To: 'Your_email',
-    From: 'Your_email',
+    From: 'Votre_email',
     Subject: "Nouvelle demande depuis le formulaire de contact",
     Body: body,
   }).then(
